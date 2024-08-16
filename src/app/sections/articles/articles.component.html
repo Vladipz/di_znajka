@@ -1,0 +1,31 @@
+<section class="padding-x py-11">
+  <div class="max-container">
+    <p class="text-center text-2xl text-gray-500">Поради</p>
+    <h1 class="mb-8 text-center text-3xl font-bold">
+      Відкрийте для себе <span class="text-dark"> нові знання</span>
+    </h1>
+    <div class="grid gap-3 lg:grid-cols-2">
+      @for (article of articles; track $index) {
+        <div class="mb-3 rounded-xl bg-light p-[17px]">
+          <div class="grid grid-cols-[39px_1fr] content-center gap-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              class="h-[39px] w-[39px] rounded-md bg-dirty fill-dark"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <p class="pl-3 text-xl">
+              {{ article }}
+            </p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

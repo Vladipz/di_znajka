@@ -1,1 +1,176 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .max-container {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .input {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+  }
+}
+
+@layer utilities {
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .padding-x {
+    @apply md:px-[130px] px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-24 py-12;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+  .info-text {
+    @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+}
+
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-DemiBoldItalic.woff2') format('woff2'); */
+/*   font-weight: 600; */
+/*   font-style: italic; */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-ExtraLight.woff2') format('woff2'); */
+/*   font-weight: 200; */
+/*   font-style: normal; */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-ThinItalic.woff2') format('woff2'); */
+/*   font-weight: 100; */
+/*   font-style: italic; */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-MediumItalic.woff2') format('woff2'); */
+/*   font-weight: 500; */
+/*   font-style: italic; */
+/* } */
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-DemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-BlackItalic.woff2') format('woff2'); */
+/*   font-weight: 900; */
+/*   font-style: italic; */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-LightItalic.woff2') format('woff2'); */
+/*   font-weight: 300; */
+/*   font-style: italic; */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-ExtraLightItalic.woff2') format('woff2'); */
+/*   font-weight: 200; */
+/*   font-style: italic; */
+/* } */
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-Thin.woff2') format('woff2'); */
+/*   font-weight: 100; */
+/*   font-style: normal; */
+/* } */
+
+/* @font-face { */
+/*   font-family: 'TT Firs Neue'; */
+/*   src: url('/assets/fonts/TTFirsNeue-ExtraBoldItalic.woff2') format('woff2'); */
+/*   font-weight: 800; */
+/*   font-style: italic; */
+/* } */
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Firs Neue';
+  src: url('/assets/fonts/TTFirsNeue-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}

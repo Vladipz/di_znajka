@@ -1,0 +1,7 @@
+.test-icon {
+  color: "red";
+}
+
+/* :host {
+  @apply flex break-inside-avoid flex-col gap-3 rounded-xl bg-white p-4
+ } */

@@ -1,0 +1,29 @@
+<section class="padding-x bg-background py-11">
+  <div class="max-container grid gap-24 sm:grid-cols-2">
+    <div
+      class="h-fit w-fit  rounded-b-[300px] rounded-t-md border-2 border-dashed border-dark p-2"
+    >
+      <img
+        class="rounded-b-[300px] rounded-t-md"
+        src="/assets/images/diana-on-bike.png"
+        alt=""
+      />
+    </div>
+    <div class="">
+      <h1 class="mb-3 text-6xl font-bold">Про мене</h1>
+      <p class="mb-6 text-lg">
+        Мене звати Діана, і я логопед-дефектолог з багаторічним досвідом роботи.
+        Моя місія полягає в тому, щоб сприяти всебічному розвитку дитини,
+        допомагати їй досягати нових висот у пізнавальній та мовленнєвій сферах.
+      </p>
+      <h3 class="mb-3 text-4xl font-bold">
+        Мої професійні <span class="text-dark"> вміння </span>
+      </h3>
+      <ul class="grid list-disc gap-4">
+        @for (skill of skills; track $index) {
+          <li class="text-lg marker:text-dark">{{ skill }}</li>
+        }
+      </ul>
+    </div>
+  </div>
+</section>

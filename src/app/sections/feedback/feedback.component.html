@@ -1,0 +1,18 @@
+<section
+  class="max-cantainer padding-x flex h-auto flex-col items-center bg-background pt-8"
+>
+  <p class="font- text-2xl text-gray-500">Відгуки</p>
+  <h1 class="mb-8 text-center text-3xl font-bold">
+    Що наші <span class="text-dark">клієнти кажуть</span> про нас
+  </h1>
+  <div class="gap-5 pb-14 sm:columns-2 lg:columns-3">
+    @for (feedback of feedbacks; track $index) {
+      <app-feedback-card
+        [rating]="feedback.mark"
+        [feedback]="feedback.feedback"
+        [name]="feedback.name"
+        class="mb-5"
+      ></app-feedback-card>
+    }
+  </div>
+</section>
