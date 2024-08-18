@@ -1,0 +1,18 @@
+  <a [href]="data.link" class="flex flex-col w-full">
+    <div class="z-20 flex h-52 w-full  flex-col rounded-2xl bg-white p-5">
+      <svg [icon]="data.icon" class="h-12 w-12"></svg>
+      <p class="mt-auto italic text-gray-500">{{ data.phrase }}</p>
+      <p class="text-xl font-bold">{{ data.social }}</p>
+      <p class="text-gray-500">{{ data.nickname }}</p>
+    </div>
+    <div
+      class="absolute -top-[4px] left-[3px] z-10 h-full w-full rounded-2xl bg-dark p-5"
+    ></div>
+    <div
+      class="absolute -top-[6px] left-[6px] z-0 h-full w-full rounded-2xl bg-dark-500 p-5"
+    ></div>
+    <svg
+      icon="mouse"
+      class="absolute bottom-0 left-0 z-30 h-20 w-20 -translate-x-1/2 translate-y-12 rotate-45 transform"
+    ></svg>
+  </a>

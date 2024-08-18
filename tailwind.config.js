@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors: {
         background: "#F8F8F0",
-        dark: "#C9AD32",
+        dark: {
+          DEFAULT: "#C9AD32", // Основний колір
+          500: "#A79542", // Відтінок для dark-500
+        },
         dirty: "#EAE3B9",
         light: "#FEFDF5",
       },
