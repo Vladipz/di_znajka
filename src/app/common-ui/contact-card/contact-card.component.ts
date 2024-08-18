@@ -8,7 +8,7 @@ import { contactCard } from '../../data/interfaces/contact-card.interface';
   imports: [SvgImgComponent],
   templateUrl: './contact-card.component.html',
   host: {
-    class: '',
+    class: 'relative flex h-52 w-full rounded-2xl',
   },
 })
 export class ContactCardComponent {

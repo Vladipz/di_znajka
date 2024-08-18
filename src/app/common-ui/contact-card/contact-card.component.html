@@ -1,6 +1,5 @@
-<div class="relative flex h-52 w-64 rounded-2xl">
-  <a [href]="data.link" class="flex flex-col">
-    <div class="z-20 flex h-52 w-64 flex-col rounded-2xl bg-white p-5">
+  <a [href]="data.link" class="flex flex-col w-full">
+    <div class="z-20 flex h-52 w-full  flex-col rounded-2xl bg-white p-5">
       <svg [icon]="data.icon" class="h-12 w-12"></svg>
       <p class="mt-auto italic text-gray-500">{{ data.phrase }}</p>
       <p class="text-xl font-bold">{{ data.social }}</p>
@@ -17,4 +16,3 @@
       class="absolute bottom-0 left-0 z-30 h-20 w-20 -translate-x-1/2 translate-y-12 rotate-45 transform"
     ></svg>
   </a>
-</div>
