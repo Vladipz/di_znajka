@@ -2,7 +2,7 @@ import { contactCard } from '../data/interfaces/contact-card.interface';
 
 export const cantactsItems: contactCard[] = [
   {
-    link: '',
+    link: 'tel:+380961025379',
     icon: 'phone',
     phrase: 'Я завжди на зв’язку!',
     social: 'Номер телефону',
@@ -16,14 +16,14 @@ export const cantactsItems: contactCard[] = [
     nickname: '@dianaguralska',
   },
   {
-    link: 'https://www.youtube.com/watch?v=kk3_5AHEZxE&list=PLNA_k4qiNrlFjoWZARYkizbKSvkYjvLjE&index=3',
+    link: 'https://www.instagram.com/di_znajka?igsh=NTc4MTIwNjQ2YQ==',
     icon: 'instagram',
     phrase: 'Ділюся натхненням!',
     social: 'Instagram',
     nickname: '@di_znajka',
   },
   {
-    link: 'https://www.youtube.com/watch?v=kk3_5AHEZxE&list=PLNA_k4qiNrlFjoWZARYkizbKSvkYjvLjE&index=3',
+    link: 'https://www.tiktok.com/@di_znajka?_t=8oxRK2sOLFm&_r=1',
     icon: 'tik-tok',
     phrase: 'Творіть разом зі мною!',
     social: 'Tik-tok',
