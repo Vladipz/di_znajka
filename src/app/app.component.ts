@@ -8,22 +8,24 @@ import { CertificatesComponent } from './sections/certificates/certificates.comp
 import { FeedbackComponent } from './sections/feedback/feedback.component';
 import { BigAvatarComponent } from "./sections/big-avatar/big-avatar.component";
 import { ReviewsComponent } from "./sections/reviews/reviews.component";
+import { ContactsComponent } from "./sections/contacts/contacts.component";
 
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     imports: [
-        RouterOutlet,
-        NavBarComponent,
-        FooterComponent,
-        AboutMeComponent,
-        ArticlesComponent,
-        CertificatesComponent,
-        FeedbackComponent,
-        BigAvatarComponent,
-        ReviewsComponent
-    ]
+    RouterOutlet,
+    NavBarComponent,
+    FooterComponent,
+    AboutMeComponent,
+    ArticlesComponent,
+    CertificatesComponent,
+    FeedbackComponent,
+    BigAvatarComponent,
+    ReviewsComponent,
+    ContactsComponent
+]
 })
 export class AppComponent {
   title = 'diana-landing-page';
